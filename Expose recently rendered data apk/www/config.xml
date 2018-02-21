@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="graphical-glitches.bugreport" version="1.0.0.0apk">
+
+	<name>Expose recently rendered data</name>
+	<description>Make use of graphical glitches to exploit sensitive data from other tabs and apps. Works in browsers based on Chromium.</description>
+	<author href="https://zznidar.github.io/expose-private-data/">Žan Žnidar</author>
+
+	<icon src="icon-128.png" width="128" height="128" />
+	<icon src="icon-256.png" width="256" height="256" gap:role="default" />
+
+	<preference name="permissions" value="none"/>
+	<preference name="android-targetSdkVersion" value="21" />
+
+	<feature name="http://api.phonegap.com/1.0/network"/>
+
+	<preference name="orientation" value="default" />
+	<preference name="fullscreen" value="false" />
+
+	<preference name="deployment-target" value="8.0" />
+	<preference name="android-minSdkVersion" value="21" />
+	<plugin name="cordova-plugin-whitelist" source="npm" />
+	<access origin="*" />
+
+	<plugin name="cordova-plugin-inappbrowser" source="npm" />
+
+	<!-- Optional splash screen image, e.g.: -->
+	<!-- <gap:splash src="splash.png" width="1024" height="768" /> -->
+
+</widget>
