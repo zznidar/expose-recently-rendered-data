@@ -14,3 +14,5 @@ The glitch is only present on certain devices. See the [list of affected devices
 The left number always shows the current tick. On the right, you can see the numbers of ticks when the website was resumed (i. e. when you changed back to that tab).
 
 According to my tests, the glitches always appear on snapshots 2 and 3 ticks after the site is resumed. Sometimes parts of them are just transparent, other times they contain recently rendered data.
+
+![Sample js snapshot](/samples/Graphic%201518884650248%2026%2024_30.jpg)
