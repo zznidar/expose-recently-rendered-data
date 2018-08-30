@@ -15,4 +15,7 @@ The left number always shows the current tick. On the right, you can see the num
 
 According to my tests, the glitches always appear on snapshots 2 and 3 ticks after the site is resumed. Sometimes parts of them are just transparent, other times they contain recently rendered data.
 
-![Sample js snapshot](/samples/Graphic%201518884650248%2026%2024_30.jpg)
+The following snapshot contains parts of some Twitter account which was opened just before switching back to the POF-tab:
+![Sample js snapshot contains parts of Twitter](/samples/Graphic%201518884650248%2026%2024_30.jpg)
+
+Using this glitch, malicious websites could steal your private infomation.
