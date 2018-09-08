@@ -1,4 +1,4 @@
-# expose-private-data
+# expose-recently-rendered-data
 Make use of graphical glitches to exploit sensitive data from other tabs and apps. Works in browsers based on Chromium.
 
 The glitch is only present on certain devices. See the [list of affected devices](https://raw.githubusercontent.com/zznidar/expose-private-data/master/affected-devices).
