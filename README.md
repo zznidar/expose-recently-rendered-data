@@ -19,3 +19,13 @@ The following snapshot contains parts of some Twitter account which was opened j
 [![Sample js snapshot contains parts of Twitter](/samples/Graphic%201518884650248%2026%2024_30.jpg)](/samples/Graphic%201518884650248%2026%2024.jpg)
 
 Using this glitch, malicious websites could steal your private infomation.
+
+### Affected browsers:
+Chrome Dev: affected
+Chrome: affected
+Chrome Canary: affected
+Firefox: *unaffected*
+Firefox Focus: (can only have 1 tab opened at a time)
+Opera: affected
+Opera Mini: *unaffected* (but: viewport size changes on switching tabs)
+Brave: affected
