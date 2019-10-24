@@ -1,11 +1,11 @@
 # expose-recently-rendered-data
 Make use of graphical glitches to exploit sensitive data from other tabs and apps. Works in browsers based on Chromium.
 
-The glitch is only present on certain devices. See the [list of affected devices](https://raw.githubusercontent.com/zznidar/expose-private-data/master/affected-devices).
+The glitch is only present on certain devices. See the [list of affected devices](https://raw.githubusercontent.com/zznidar/expose-recently-rendered-data/master/affected-devices).
 
 ## Exploiting the glitch:
 1.	 Open Chrome.
-2.	 Visit https://zznidar.github.io/expose-private-data/www/ (open a few other tabs as well).
+2.	 Visit https://zznidar.github.io/expose-recently-rendered-data/www/ (open a few other tabs as well).
 3.	 During the first 40 ticks (a few seconds, depending on the device speed), the website will take canvas snapshots with javascript. During this time, switch between tabs and between applications (switch and go back to this tab).
 4.	 After 40 ticks, 40 buttons will appear. Press each of them to download the corresponding snapshot (I tried to automate this, but Chrome didn’t allow the site to automatically download 40 files).
 5.	 Look at the snapshots. Parts of recently rendered graphics will appear on certain snapshots.
